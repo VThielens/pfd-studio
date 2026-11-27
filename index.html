@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PFD Studio ISO 10628</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <header id="toolbar">
+    <div class="brand">PFD Studio <span>ISO 10628</span></div>
+    <div class="group">
+      <button data-cmd="new" data-i18n="tb.new" data-i18n-title="tb.new.t">New</button>
+      <button data-cmd="open" data-i18n="tb.open" data-i18n-title="tb.open.t">Open</button>
+      <button data-cmd="save" data-i18n="tb.save" data-i18n-title="tb.save.t">Save</button>
+      <button data-cmd="saveAs" data-i18n="tb.saveAs" data-i18n-title="tb.saveAs.t">Save as</button>
+    </div>
+    <div class="group">
+      <button data-cmd="undo" data-i18n-title="tb.undo.t">↶</button>
+      <button data-cmd="redo" data-i18n-title="tb.redo.t">↷</button>
+    </div>
+    <div class="group tools">
+      <button data-tool="select" class="on" data-i18n="tool.select" data-i18n-title="tool.select.t">Select</button>
+      <button data-tool="line" data-i18n="tool.line" data-i18n-title="tool.line.t">Line</button>
+      <button data-tool="text" data-i18n="tool.text" data-i18n-title="tool.text.t">Text</button>
+      <button data-tool="ports" data-i18n="tool.ports" data-i18n-title="tool.ports.t">Ports</button>
+    </div>
+    <div class="group">
+      <label class="lbl"><span data-i18n="tb.newLine">New line</span>
+        <select id="defKind" data-i18n-title="tb.kind.t"></select>
+      </label>
+      <select id="defArrow" data-i18n-title="tb.arrow.t"></select>
+    </div>
+    <div class="group">
+      <button data-cmd="rotL" data-i18n-title="tb.rotL.t">⟲</button>
+      <button data-cmd="rotR" data-i18n-title="tb.rotR.t">⟳</button>
+      <button data-cmd="flipH" data-i18n-title="tb.flipH.t">⇋</button>
+      <button data-cmd="flipV" data-i18n-title="tb.flipV.t">⇵</button>
+      <button data-cmd="delete" data-i18n-title="tb.delete.t">✕</button>
+    </div>
+    <div class="group">
+      <button data-cmd="zoomOut" data-i18n-title="tb.zoomOut.t">−</button>
+      <button data-cmd="fit" id="zoomLabel" data-i18n-title="tb.fit.t">100 %</button>
+      <button data-cmd="zoomIn" data-i18n-title="tb.zoomIn.t">+</button>
+    </div>
+    <div class="group">
+      <button data-cmd="exportSVG">SVG</button>
+      <button data-cmd="exportPNG">PNG</button>
+      <button data-cmd="exportPDF" data-i18n-title="tb.pdf.t">PDF</button>
+      <button data-cmd="exportList" data-i18n="tb.list" data-i18n-title="tb.list.t">Equipment list</button>
+    </div>
+    <div class="spacer"></div>
+    <select id="lang" data-i18n-title="tb.lang.t" aria-label="Language"></select>
+    <button data-cmd="help" data-i18n-title="tb.help.t">?</button>
+  </header>
+
+  <aside id="library">
+    <input id="search" type="search" data-i18n-ph="lib.search" autocomplete="off">
+    <div id="libList"></div>
+    <p class="libnote" data-i18n="lib.note"></p>
+  </aside>
+
+  <main id="stage">
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+      <defs id="svgDefs">
+        <pattern id="grid" patternUnits="userSpaceOnUse" width="50" height="50">
+          <path d="M10,0 V50 M20,0 V50 M30,0 V50 M40,0 V50 M0,10 H50 M0,20 H50 M0,30 H50 M0,40 H50" fill="none" class="grid-minor"/>
+          <path d="M50,0 H0 V50" fill="none" class="grid-major"/>
+        </pattern>
+      </defs>
+      <rect id="gridRect" x="0" y="0" width="100%" height="100%" fill="url(#grid)"/>
+      <g id="viewport">
+        <g id="layerFrame"></g>
+        <g id="layerConns"></g>
+        <g id="layerShapes"></g>
+        <g id="layerTexts"></g>
+        <g id="layerOverlay"></g>
+      </g>
+    </svg>
+    <div id="hint"></div>
+  </main>
+
+  <aside id="props"></aside>
+
+  <footer id="status">
+    <span id="stMode"></span>
+    <span id="stPos">x 0 · y 0</span>
+    <span id="stInfo"></span>
+    <span class="spacer"></span>
+    <span id="stFile"></span>
+  </footer>
+</div>
+
+<div id="helpDlg" class="dlg" hidden>
+  <div class="dlg-box">
+    <h2 data-i18n="help.title"></h2>
+    <div class="help-cols">
+      <div>
+        <h3 data-i18n="help.draw"></h3>
+        <ul data-i18n-html="help.drawList"></ul>
+      </div>
+      <div>
+        <h3 data-i18n="help.keys"></h3>
+        <ul class="keys" data-i18n-html="help.keysList"></ul>
+      </div>
+    </div>
+    <p class="note" data-i18n="help.note"></p>
+    <button data-close data-i18n="help.close">Close</button>
+  </div>
+</div>
+
+<input type="file" id="fileInput" accept=".json,.pfd,application/json" hidden>
+<script src="js/i18n.js"></script>
+<script src="js/iso-symbols.js"></script>
+<script src="js/symbols.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

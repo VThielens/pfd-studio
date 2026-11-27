@@ -1,0 +1,14 @@
+{
+  "name": "pfd-studio",
+  "version": "1.0.0",
+  "description": "Offline editor for process flow diagrams with the ISO 10628-2 symbol library",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "node --test tests/smoke.test.js",
+    "build:symbols": "cd tools/iso-symbols && node extract.js && python3 build.py && node normsw.js iso-symbols.js ../../js/iso-symbols.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}

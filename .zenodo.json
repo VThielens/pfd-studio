@@ -1,0 +1,22 @@
+{
+  "title": "PFD Studio: an offline editor for process flow diagrams with the ISO 10628-2 symbol library",
+  "upload_type": "software",
+  "description": "<p>PFD Studio is a free, offline, browser-based editor for process flow diagrams. It ships the complete ISO 10628-2:2012 graphical symbol library (295 symbols in 29 groups, with English, French and Dutch names), lets users add connection ports to any symbol and draws lines that stay attached to the ports when equipment is moved. Drawings export to SVG, PNG, PDF and an equipment list for spreadsheets.</p><p>The ISO 10628-2 symbol data is derived from the sheets by Steven Baltakatei Sandoval (Wikimedia Commons, CC BY-SA 4.0) and is distributed under CC BY-SA 4.0; the application code is GPL-3.0-or-later.</p>",
+  "creators": [
+    {
+      "name": "Thielens, Vincent",
+      "affiliation": "Thermal Engineering and Combustion Unit, Engineering Faculty, University of Mons (UMONS), Mons, Belgium",
+      "orcid": "0000-0003-1404-8972"
+    }
+  ],
+  "license": "gpl-3.0-or-later",
+  "keywords": ["process flow diagram", "PFD", "P&ID", "ISO 10628", "chemical engineering", "process engineering education", "diagram editor", "SVG"],
+  "related_identifiers": [
+    {
+      "identifier": "https://w.wiki/dg9",
+      "relation": "isDerivedFrom",
+      "resource_type": "image-diagram"
+    }
+  ],
+  "language": "eng"
+}

@@ -1,0 +1,32 @@
+# After the first Zenodo release, put the concept DOI in the "doi" line and uncomment it.
+cff-version: 1.2.0
+message: "If you use PFD Studio in teaching or research, please cite it as below."
+title: "PFD Studio: an offline editor for process flow diagrams with the ISO 10628-2 symbol library"
+type: software
+authors:
+  - given-names: Vincent
+    family-names: Thielens
+    affiliation: "Thermal Engineering and Combustion Unit, Engineering Faculty, University of Mons (UMONS), Mons, Belgium"
+    orcid: "https://orcid.org/0000-0003-1404-8972"
+# doi: 10.5281/zenodo.XXXXXXX
+version: 1.0.0
+date-released: "2026-11-27"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/VThielens/pfd-studio"
+url: "https://vthielens.github.io/pfd-studio/"
+abstract: >-
+  PFD Studio is a free, offline, browser-based editor for process flow
+  diagrams. It ships the complete ISO 10628-2:2012 graphical symbol library
+  (295 symbols in 29 groups, with English, French and Dutch names), lets
+  users add connection ports to any symbol and draws lines that stay
+  attached to the ports when equipment is moved. Drawings export to SVG,
+  PNG, PDF and an equipment list for spreadsheets.
+keywords:
+  - process flow diagram
+  - PFD
+  - P&ID
+  - ISO 10628
+  - chemical engineering
+  - process engineering education
+  - diagram editor
+  - SVG

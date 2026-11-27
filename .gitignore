@@ -1,0 +1,9 @@
+node_modules/
+_site/
+paper/paper.pdf
+paper/jats/
+tools/iso-symbols/iso.json
+tools/iso-symbols/iso-symbols.js
+tools/iso-symbols/__pycache__/
+.DS_Store
+Thumbs.db

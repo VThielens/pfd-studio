@@ -1,0 +1,982 @@
+{
+ "app": "pfd-iso10628",
+ "version": 1,
+ "nextId": 37,
+ "shapes": [
+  {
+   "id": "s1",
+   "sym": "flow_in",
+   "x": 65,
+   "y": 382,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 70,
+     "y": 12,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 12,
+     "dir": "l"
+    }
+   ],
+   "tag": "Alimentation",
+   "name": "Entrée de produit / renvoi",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s2",
+   "sym": "iso_2062",
+   "x": 205,
+   "y": 360,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 25,
+     "y": 75,
+     "dir": "d"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 12.5,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 0,
+     "y": 56.3,
+     "dir": "l"
+    },
+    {
+     "id": "p4",
+     "x": 50,
+     "y": 56.3,
+     "dir": "r"
+    }
+   ],
+   "tag": "B-101",
+   "name": "Réservoir à toit fixe",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s3",
+   "sym": "iso_2101",
+   "x": 300,
+   "y": 410,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 25,
+     "y": 5.9,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 6.3,
+     "dir": "l"
+    }
+   ],
+   "tag": "V-101",
+   "name": "Vanne (général) / robinet-vanne",
+   "showTag": false,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s4",
+   "sym": "iso_2322",
+   "x": 380,
+   "y": 410,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 37.5,
+     "y": 19.1,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 18.8,
+     "dir": "l"
+    }
+   ],
+   "tag": "P-101",
+   "name": "Pompe (général) / centrifuge",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s5",
+   "sym": "iso_X8079",
+   "x": 505,
+   "y": 415,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 0,
+     "y": 25,
+     "dir": "l"
+    },
+    {
+     "id": "p2",
+     "x": 50,
+     "y": 25,
+     "dir": "r"
+    },
+    {
+     "id": "p3",
+     "x": 25,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 25,
+     "y": 50,
+     "dir": "d"
+    }
+   ],
+   "tag": "E-101",
+   "name": "Échangeur de chaleur (général)",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s6",
+   "sym": "iso_X8101",
+   "x": 680,
+   "y": 330,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 25,
+     "y": 75,
+     "dir": "d"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 6.3,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 25,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 50,
+     "y": 68.8,
+     "dir": "r"
+    },
+    {
+     "id": "p5",
+     "x": 0,
+     "y": 37.5,
+     "dir": "l"
+    },
+    {
+     "id": "p6",
+     "x": 50,
+     "y": 14.1,
+     "dir": "r"
+    },
+    {
+     "id": "p7",
+     "x": 0,
+     "y": 60.9,
+     "dir": "l"
+    }
+   ],
+   "tag": "C-101",
+   "name": "Colonne à plateaux",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s7",
+   "sym": "iso_X8079",
+   "x": 835,
+   "y": 155,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 0,
+     "y": 25,
+     "dir": "l"
+    },
+    {
+     "id": "p2",
+     "x": 50,
+     "y": 25,
+     "dir": "r"
+    },
+    {
+     "id": "p3",
+     "x": 25,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 25,
+     "y": 50,
+     "dir": "d"
+    }
+   ],
+   "tag": "E-102",
+   "name": "Échangeur de chaleur (général)",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s8",
+   "sym": "iso_2062",
+   "x": 985,
+   "y": 230,
+   "rot": 90,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 25,
+     "y": 75,
+     "dir": "d"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 12.5,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 0,
+     "y": 37.5,
+     "dir": "l"
+    },
+    {
+     "id": "p4",
+     "x": 50,
+     "y": 37.5,
+     "dir": "r"
+    }
+   ],
+   "tag": "B-102",
+   "name": "Récipient horizontal à fonds bombés",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s9",
+   "sym": "iso_2322",
+   "x": 1000,
+   "y": 330,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 37.5,
+     "y": 19.1,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 18.8,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 18.8,
+     "y": 0,
+     "dir": "u"
+    }
+   ],
+   "tag": "P-102",
+   "name": "Pompe (général) / centrifuge",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s10",
+   "sym": "flow_out",
+   "x": 1205,
+   "y": 332,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 0,
+     "y": 12,
+     "dir": "l"
+    },
+    {
+     "id": "p2",
+     "x": 70,
+     "y": 12,
+     "dir": "r"
+    }
+   ],
+   "tag": "Distillat",
+   "name": "Sortie de produit / renvoi",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s11",
+   "sym": "iso_2511",
+   "x": 865,
+   "y": 542,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 6.3,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p2",
+     "x": 81.3,
+     "y": 25,
+     "dir": "d"
+    },
+    {
+     "id": "p3",
+     "x": 18.8,
+     "y": 25,
+     "dir": "d"
+    },
+    {
+     "id": "p4",
+     "x": 68.8,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p5",
+     "x": 0,
+     "y": 17,
+     "dir": "l"
+    }
+   ],
+   "tag": "E-103",
+   "name": "Échangeur à tubes et calandre",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s12",
+   "sym": "iso_2322",
+   "x": 760,
+   "y": 650,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 37.5,
+     "y": 19.1,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 18.8,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 18.8,
+     "y": 0,
+     "dir": "u"
+    }
+   ],
+   "tag": "P-103",
+   "name": "Pompe (général) / centrifuge",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s13",
+   "sym": "flow_out",
+   "x": 1205,
+   "y": 652,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 0,
+     "y": 12,
+     "dir": "l"
+    },
+    {
+     "id": "p2",
+     "x": 70,
+     "y": 12,
+     "dir": "r"
+    }
+   ],
+   "tag": "Résidu",
+   "name": "Sortie de produit / renvoi",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s14",
+   "sym": "utility_source",
+   "x": 1155,
+   "y": 562,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 50,
+     "y": 12,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 12,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 25,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 25,
+     "y": 24,
+     "dir": "d"
+    }
+   ],
+   "tag": "Vapeur",
+   "name": "Utilité (source)",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s15",
+   "sym": "iso_X8087",
+   "x": 1050,
+   "y": 540,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 47.4,
+     "y": 10.9,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 11.2,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 23.7,
+     "y": 0,
+     "dir": "u"
+    }
+   ],
+   "tag": "TV-101",
+   "name": "Vanne de régulation (servomoteur)",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s16",
+   "sym": "utility_source",
+   "x": 845,
+   "y": 62,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 50,
+     "y": 12,
+     "dir": "r"
+    },
+    {
+     "id": "p2",
+     "x": 0,
+     "y": 12,
+     "dir": "l"
+    },
+    {
+     "id": "p3",
+     "x": 25,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 25,
+     "y": 24,
+     "dir": "d"
+    }
+   ],
+   "tag": "Eau de refr.",
+   "name": "Utilité (source)",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  },
+  {
+   "id": "s17",
+   "sym": "inst_panel",
+   "x": 900,
+   "y": 420,
+   "rot": 0,
+   "fx": false,
+   "fy": false,
+   "s": 1,
+   "ports": [
+    {
+     "id": "p1",
+     "x": 0,
+     "y": 20,
+     "dir": "l"
+    },
+    {
+     "id": "p2",
+     "x": 40,
+     "y": 20,
+     "dir": "r"
+    },
+    {
+     "id": "p3",
+     "x": 20,
+     "y": 0,
+     "dir": "u"
+    },
+    {
+     "id": "p4",
+     "x": 20,
+     "y": 40,
+     "dir": "d"
+    }
+   ],
+   "tag": "TIC 101",
+   "name": "Instrument en salle de commande",
+   "showTag": true,
+   "tdx": 0,
+   "tdy": 0
+  }
+ ],
+ "conns": [
+  {
+   "id": "c18",
+   "a": {
+    "shape": "s1",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s2",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c19",
+   "a": {
+    "shape": "s2",
+    "port": "p4"
+   },
+   "b": {
+    "shape": "s3",
+    "port": "p2"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c20",
+   "a": {
+    "shape": "s3",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s4",
+    "port": "p2"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c21",
+   "a": {
+    "shape": "s4",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s5",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c22",
+   "a": {
+    "shape": "s5",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s6",
+    "port": "p5"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": "3\"-P-104"
+  },
+  {
+   "id": "c23",
+   "a": {
+    "shape": "s6",
+    "port": "p3"
+   },
+   "b": {
+    "shape": "s7",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": "Vapeurs de tête"
+  },
+  {
+   "id": "c24",
+   "a": {
+    "shape": "s7",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s8",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c25",
+   "a": {
+    "shape": "s8",
+    "port": "p4"
+   },
+   "b": {
+    "shape": "s9",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c26",
+   "a": {
+    "shape": "s9",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s10",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c27",
+   "a": {
+    "shape": "s9",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s6",
+    "port": "p6"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": "Reflux"
+  },
+  {
+   "id": "c28",
+   "a": {
+    "shape": "s6",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s12",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c29",
+   "a": {
+    "shape": "s12",
+    "port": "p1"
+   },
+   "b": {
+    "shape": "s13",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c30",
+   "a": {
+    "shape": "s6",
+    "port": "p4"
+   },
+   "b": {
+    "shape": "s11",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c31",
+   "a": {
+    "shape": "s11",
+    "port": "p5"
+   },
+   "b": {
+    "shape": "s6",
+    "port": "p7"
+   },
+   "wps": [],
+   "kind": "process",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c32",
+   "a": {
+    "shape": "s14",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s15",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "utility",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c33",
+   "a": {
+    "shape": "s15",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s11",
+    "port": "p2"
+   },
+   "wps": [],
+   "kind": "utility",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c34",
+   "a": {
+    "shape": "s16",
+    "port": "p4"
+   },
+   "b": {
+    "shape": "s7",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "utility",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c35",
+   "a": {
+    "shape": "s6",
+    "port": "p4"
+   },
+   "b": {
+    "shape": "s17",
+    "port": "p1"
+   },
+   "wps": [],
+   "kind": "signal",
+   "arrow": "none",
+   "route": "ortho",
+   "label": ""
+  },
+  {
+   "id": "c36",
+   "a": {
+    "shape": "s17",
+    "port": "p2"
+   },
+   "b": {
+    "shape": "s15",
+    "port": "p3"
+   },
+   "wps": [],
+   "kind": "pneumatic",
+   "arrow": "end",
+   "route": "ortho",
+   "label": ""
+  }
+ ],
+ "texts": [],
+ "settings": {
+  "grid": 10,
+  "snap": true,
+  "showGrid": true,
+  "page": "A3 landscape",
+  "frame": false
+ },
+ "meta": {
+  "title": "Exemple - distillation simple (ISO 10628)",
+  "dwg": "",
+  "rev": "",
+  "author": "",
+  "checker": "",
+  "date": "",
+  "company": "",
+  "project": ""
+ },
+ "seq": {
+  "B": 102,
+  "V": 102,
+  "P": 103,
+  "E": 103,
+  "C": 101,
+  "I": 101
+ }
+}
