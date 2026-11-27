@@ -2,9 +2,7 @@
 
 **A free, offline editor for process flow diagrams with the complete ISO 10628-2 symbol library.**
 
-<!-- After the first Zenodo release, replace XXXXXXX with the concept DOI number:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24587028.svg)](https://doi.org/10.5281/zenodo.24587028)
 [![Tests](https://github.com/VThielens/pfd-studio/actions/workflows/tests.yml/badge.svg)](https://github.com/VThielens/pfd-studio/actions/workflows/tests.yml)
 [![License: GPL v3](https://img.shields.io/badge/code-GPL--3.0-blue.svg)](LICENSE)
 [![Symbols: CC BY-SA 4.0](https://img.shields.io/badge/symbols-CC%20BY--SA%204.0-lightgrey.svg)](LICENSES/CC-BY-SA-4.0.md)
@@ -58,7 +56,7 @@ web server, copy `index.html`, `css/`, `js/` and the example files to any web fo
 If you use PFD Studio in teaching or research, please cite it. GitHub shows a ready-made reference under
 **"Cite this repository"** (from [CITATION.cff](CITATION.cff)). Each release is archived on Zenodo with a DOI.
 
-> Thielens, V. (2026). *PFD Studio: an offline editor for process flow diagrams with the ISO 10628-2 symbol library* (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.XXXXXXX
+> Thielens, V. (2026). *PFD Studio: an offline editor for process flow diagrams with the ISO 10628-2 symbol library* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24587029
 
 ## Development
 
